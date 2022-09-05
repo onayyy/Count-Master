@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932d402c6251c614c981ea2de7c4039f, type: 3}
+  m_Name: CD_Level
+  m_EditorClassIdentifier: 
+  Levels:
+  - GateList:
+    - SymbolType: 1
+      GateValue: 10
+      GateValueText: +
+    - SymbolType: 0
+      GateValue: 5
+      GateValueText: x
+    - SymbolType: 1
+      GateValue: 20
+      GateValueText: +
+    - SymbolType: 1
+      GateValue: 50
+      GateValueText: +
+    - SymbolType: 0
+      GateValue: 2
+      GateValueText: x
+    - SymbolType: 1
+      GateValue: 35
+      GateValueText: +
+    EnemyList:
+    - EnemyCount: 30
+    - EnemyCount: 20
+  - GateList:
+    - SymbolType: 1
+      GateValue: 60
+      GateValueText: +
+    - SymbolType: 0
+      GateValue: 10
+      GateValueText: x
+    - SymbolType: 1
+      GateValue: 15
+      GateValueText: +
+    - SymbolType: 1
+      GateValue: 5
+      GateValueText: +
+    - SymbolType: 1
+      GateValue: 15
+      GateValueText: +
+    - SymbolType: 0
+      GateValue: 2
+      GateValueText: x
+    - SymbolType: 1
+      GateValue: 5
+      GateValueText: +
+    - SymbolType: 0
+      GateValue: 2
+      GateValueText: x
+    EnemyList:
+    - EnemyCount: 50
+    - EnemyCount: 40
